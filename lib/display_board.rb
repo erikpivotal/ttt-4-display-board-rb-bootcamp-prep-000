@@ -3,5 +3,6 @@
 def display_board board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
-  divider = "\n" + 
+  divider = "\n" + "-----------" + "\n"
+  game_board = row + divider + row + divider + row
 end
