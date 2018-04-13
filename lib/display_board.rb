@@ -2,4 +2,6 @@
 # out the current state.
 def display_board board
   cell = "   "
+  row = cell + "|" + cell + "|" + cell
+  
 end
