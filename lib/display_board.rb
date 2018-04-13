@@ -3,6 +3,6 @@
 def display_board board
   cell = "   "
   divider = "\n" + "-----------" + "\n"
-  row = [board[0] + "|" + board[1] + "|" + board[2], divider, board[3] + "|" + cell + "|" + cell, divider , cell + "|" + cell + "|" + cell ]
+  row = [board[0] + "|" + board[1] + "|" + board[2], divider, board[3] + "|" + board[4] + "|" + board[5], divider , board[6] + "|" + board[7] + "|" + board[8] ]
   puts row
 end
