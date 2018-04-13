@@ -3,5 +3,5 @@
 def display_board board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
-  
+  divider = "\n" + 
 end
